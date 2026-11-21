@@ -1,0 +1,98 @@
+{
+  "nicho": {
+    "nome": "educação infantil particular (colégio infantil, creche, berçário, escola bilíngue infantil)",
+    "termos": [
+      "escola infantil particular",
+      "escola bilíngue infantil",
+      "berçário",
+      "creche particular",
+      "pré-escola",
+      "maternal"
+    ],
+    "categoriasDentro": "pré-escola|jardim d[ae] infância|creche|berçário|educação infantil|maternal|montessori|waldorf|grupo de brincadeiras|bilíng|infantil|kids|baby|bebê",
+    "categoriasFora": "autoescola|pet shop|animais|cachorro|cães|veterin|idosos|academia|idioma|inglês|música|dança|natação|loja|brinquedo|moda|roupa|buffet|festa|clínica|psic|pediatr|hospital|faculdade|universidade|curso técnico|escola pública|organização sem fins|serviço social|esportes|futebol|lutas|teatro|recreação|playground|parque|hotel|supermercado|shopping|papelaria|livraria|condomínio|fitness|ginástica|ginásio|quadra|clube",
+    "nomesFora": "municipal|estadual|\\bEMEI\\b|\\bEMEF\\b|\\bCEMEI\\b|\\bCMEI\\b|prefeitura|kumon|autoescola|\\bpets?\\b|cachorro|petshop|\\bdog|cursinho|pré-vestibular",
+    "fichaDeBairro": [],
+    "removerSemSinal": false,
+    "sinais": {
+      "dentro": "infantil|berçário|bercario|creche|maternal|educação infantil|pré-escola|primeira infância|bebê|crianças",
+      "fora": "vestibular|intercâmbio|veterin|pet|cachorro|médico|cuidadores|assistência social|ensino médio|graduação"
+    },
+    "palavrasComuns": [
+      "colegio",
+      "escola",
+      "infantil",
+      "creche",
+      "bilingue",
+      "bercario",
+      "educacao"
+    ],
+    "rotulos": [
+      {
+        "padrao": "biling|bilíng|bilingual|international|internacional",
+        "rotulo": "Escola bilíngue infantil"
+      },
+      {
+        "padrao": "ber[cç][aá]rio|baby|bebê",
+        "rotulo": "Berçário"
+      },
+      {
+        "padrao": "creche|day ?care",
+        "rotulo": "Creche"
+      },
+      {
+        "padrao": ".",
+        "rotulo": "Escola infantil"
+      }
+    ],
+    "publicaOuParticular": true,
+    "publica": {
+      "sinaisPublica": "\\bCEI\\b|\\bEMEI\\b|\\bCEMEI\\b|\\bCMEI\\b|\\bEMEF\\b|municipal|estadual|prefeitura|conveniad|escola p[úu]blica|rede p[úu]blica|gratuit",
+      "sinaisParticular": "escola particular|col[ée]gio privado|escola privada|\\bparticular\\b|\\bprivad|mensalidade|bil[íi]ng|bilingu|maple bear|montessori|waldorf|franquia"
+    },
+    "cnaeRx": "^85",
+    "criterioPorte": ""
+  },
+  "tirarQuemTemSite": true,
+  "bairros": [
+    {
+      "nome": "Bairro A",
+      "cidade": "Cidade 1"
+    },
+    {
+      "nome": "Bairro B",
+      "cidade": "Cidade 2"
+    }
+  ],
+  "rodadasAnteriores": [],
+  "listas": {
+    "titulo": "Educação infantil",
+    "etiqueta": "LISTA DE LEADS"
+  },
+  "scraper": {
+    "api": "http://localhost:8090/api/v1",
+    "exe": "C:/caminho/para/mazyos-scraper.exe",
+    "porta": 8090,
+    "raioM": 3000,
+    "profundidade": 12,
+    "tetoMin": 30,
+    "paradoMin": 6
+  },
+  "serper": {
+    "chaveVar": "SERPER_API_KEY",
+    "envFile": "caminho/para/serper/.env",
+    "saldoInicial": 0
+  },
+  "evolution": {
+    "url": "http://localhost:8080",
+    "instancia": "agendamento",
+    "envFile": "caminho/para/evolution-api/.env",
+    "chaveVar": "AUTHENTICATION_API_KEY",
+    "compose": "caminho/para/evolution-api",
+    "dockerDesktop": "C:/Program Files/Docker/Docker/Docker Desktop.exe"
+  },
+  "receita": {
+    "dir": "C:/caminho/para/receita-cnpj"
+  },
+  "chrome": "C:/Program Files/Google/Chrome/Application/chrome.exe"
+}
